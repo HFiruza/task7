@@ -8,3 +8,10 @@ print(mutable_list)
 print(mutable_list[1])
 mutable_list[1][1] = 'a book'
 print(mutable_list)
+
+mutable_list = [1, 2, 3]
+print(mutable_list)
+mutable_list.append(1)
+print(mutable_list)
+mutable_list.remove(2)
+print(mutable_list)
